@@ -1,0 +1,75 @@
+label {
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+form {
+    border: 3px solid #347186;
+}
+
+.formName {
+    display: flex;
+    justify-content: center;
+}
+
+.formName h1 {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+input,
+.comments textarea {
+    display: block;
+    width: 200px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #347186;
+    border-radius: 10px;
+    margin-bottom: 5px;
+
+}
+
+.hobbies input {
+    display: inline-block;
+    width: 150px;
+margin-right: 5px;
+
+}
+
+
+.name,
+.email,
+.channel,
+.button,
+.comments,
+.address,
+.phone,
+.facebook,
+.twitter,
+.primaryPhone,
+.secondaryPhone,
+.hobbies {
+    margin: 30px;
+}
+
+
+.button button {
+    border: 3px solid #347186;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    background-color: #0D7FBA;
+
+}
+
+.errorMessage {
+    color: red;
+}
